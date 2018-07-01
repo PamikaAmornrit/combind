@@ -38,10 +38,14 @@ $colors: (
   secondary:  #32db64,
   danger:     #f53d3d,
   light:      #f4f4f4,
-  dark:       #222
+  dark:       #222,
+  lightbutton:   #f53d3d,
 );
 
-
+$tabs-background:color($colors, primary);
+$tabs-tab-color-inactive:color($colors,danger);
+$tabs-tab-color-active:color($colors,danger);
+$toobar-background:color($colors, primary);
 // App iOS Variables
 // --------------------------------------------------
 // iOS only Sass variables can go here
@@ -53,8 +57,8 @@ $colors: (
 // --------------------------------------------------
 // Material Design only Sass variables can go here
 
-
-
+$tabs-md-tab-text-color:color($colors,primary);
+$tabs-md-tab-icon-color:color($colors,dark);
 
 // App Windows Variables
 // --------------------------------------------------
